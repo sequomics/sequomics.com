@@ -22,3 +22,155 @@ $axix-base-font: quote(Helvetica Neue), Helvetica, Arial, sans-serif !default;
 $axix-webkit-background-color:                               #4F4540 !default;
 $axix-webkit-scrollbar-thumb-color:                          #B58418 !default;
 $axix-webkit-scrollbar-thumb-hover-color:                    #DAA520 !default;
+
+// 01. <html> = The HTML <html> element (or HTML root element) represents the root of an HTML document.
+// All other elements must be descendants of this element.
+
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+     -moz-font-smoothing: antialiased;
+       -o-font-smoothing: antialiased;
+          font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+// for Internet Explorer 10 in Windows 8 and Windows Phone 8.
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+// 02. <body> = The HTML <body> Element represents the content of an HTML document.
+// There can be only one <body> element in a document.
+
+body {
+  font-family: $axix-base-font;
+  font-size: 14px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+     -moz-font-smoothing: antialiased;
+       -o-font-smoothing: antialiased;
+          font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+// Scroll Bar for -webkit- engine.
+::-webkit-scrollbar {
+  background: $axix-webkit-background-color;
+  width: 8px;
+  height: 32px;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  background: $axix-webkit-background-color;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $axix-webkit-scrollbar-thumb-color;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $axix-webkit-scrollbar-thumb-hover-color;
+}
+
+body {
+  background-color: #eee;
+}
+
+body, h1, p {
+  font-family: $axix-base-font;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+a {
+  color: #3282e6;
+  text-decoration: none;
+  -webkit-transition: color 440ms ease-in-out 004ms;
+  -moz-transition: color 440ms ease-in-out 004ms;
+  -ms-transition: color 440ms ease-in-out 004ms;
+  -o-transition: color 440ms ease-in-out 004ms;
+  transition: color 440ms ease-in-out 004ms;
+}
+
+a:hover {
+  color: #ff8a00;
+  text-decoration: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  max-width: 1180px;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+.col-md-12 {
+  width: 100%;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+.col-md-push-3 {
+  margin-left: 25%;
+}
+
+h1 {
+  color: rgb(18, 18, 18);
+  font-size: 48px;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  text-shadow: 1px 1px 1px rgba(26, 26, 26, 0.6);
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+.lead {
+  font-size: 21px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.copy {
+  color: #ff8a00;
+  font-size: 0.80em;
+}
+
+.shadow {
+  text-shadow: 1px 1px 1px rgba(108, 96, 96, 0.6);
+}
+// EOF.
