@@ -25,3 +25,9 @@
 
 // # Usage: $ node -v
 // # Usage: $ npm -v
+
+// =========================
+// Test Module(s) Required.
+// =========================
+// main module.
+// @require   : karma
