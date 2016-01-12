@@ -13,3 +13,5 @@ An Advance Web Application from the Desk of [Sequømics Corporation](http://sequ
 2. `grunt serve` for preview the Sequømics®.
 
 **Note:** `$` is a placeholder for your terminal's prompt. You don't type it.
+
+**Copyright** © 2014 - 2015, Sequømics Corporation. All rights reserved.
