@@ -7,3 +7,7 @@ An Advance Web Application from the Desk of [Sequømics Corporation](http://sequ
 3. On Terminal type `$ compass version`, to check **Compass** is installed or not,
 4. To build type `$ compass compile` on Terminal, and finally
 5. To get the `sourcemap`, type `compass compile --sourcemap`.
+
+### Testing:
+1. Run `grunt` for building, and
+2. `grunt serve` for preview the Sequømics®.
