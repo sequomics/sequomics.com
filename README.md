@@ -11,3 +11,5 @@ An Advance Web Application from the Desk of [Sequømics Corporation](http://sequ
 ### Testing:
 1. Run `grunt` for building, and
 2. `grunt serve` for preview the Sequømics®.
+
+**Note:** `$` is a placeholder for your terminal's prompt. You don't type it.
