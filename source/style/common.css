@@ -1,1 +1,193 @@
 @charset "utf-8";
+/*!
+ * sequomics®
+ * Version    : v1.0.0
+ * Build      : Everest
+ * Mode       : -//-Production-//-
+ * -------------------------------------------------------------------
+ * @require   : Sass + Compass
+ * @require   : Ruby + Node.js® + Grunt
+ * Designed and Build with ♥ for Sequømics Corporation.
+ * -------------------------------------------------------------------
+ * @architecture    : Prabhat Kumar, http://prabhatkumar.org/
+ * @author          : Prabhat Kumar, https://github.com/iamprabhat
+ * -------------------------------------------------------------------
+ * Copyright © 2014 - 2015 Sequømics Corporation, All Rights Reserved.
+ * Licensed under Apache.
+ * -------------------------------------------------------------------
+ */
+/* line 29, ../../0.0.1/style/sass/common.scss */
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 36, ../../0.0.1/style/sass/common.scss */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@-webkit-viewport {
+  width: device-width;
+}
+@-moz-viewport {
+  width: device-width;
+}
+@-ms-viewport {
+  width: device-width;
+}
+@-o-viewport {
+  width: device-width;
+}
+@viewport {
+  width: device-width;
+}
+/* line 54, ../../0.0.1/style/sass/common.scss */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* line 59, ../../0.0.1/style/sass/common.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 68, ../../0.0.1/style/sass/common.scss */
+::-webkit-scrollbar {
+  background: #4F4540;
+  width: 8px;
+  height: 32px;
+}
+
+/* line 74, ../../0.0.1/style/sass/common.scss */
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+/* line 78, ../../0.0.1/style/sass/common.scss */
+::-webkit-scrollbar-track {
+  background: #4F4540;
+}
+
+/* line 82, ../../0.0.1/style/sass/common.scss */
+::-webkit-scrollbar-thumb {
+  background: #B58418;
+}
+
+/* line 86, ../../0.0.1/style/sass/common.scss */
+::-webkit-scrollbar-thumb:hover {
+  background: #DAA520;
+}
+
+/* line 90, ../../0.0.1/style/sass/common.scss */
+body {
+  background-color: #eee;
+}
+
+/* line 94, ../../0.0.1/style/sass/common.scss */
+body, h1, p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* line 102, ../../0.0.1/style/sass/common.scss */
+a {
+  color: #3282e6;
+  text-decoration: none;
+  -webkit-transition: color 440ms ease-in-out 004ms;
+  -moz-transition: color 440ms ease-in-out 004ms;
+  -ms-transition: color 440ms ease-in-out 004ms;
+  -o-transition: color 440ms ease-in-out 004ms;
+  transition: color 440ms ease-in-out 004ms;
+}
+
+/* line 112, ../../0.0.1/style/sass/common.scss */
+a:hover {
+  color: #ff8a00;
+  text-decoration: none;
+}
+
+/* line 117, ../../0.0.1/style/sass/common.scss */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  max-width: 1180px;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+
+/* line 128, ../../0.0.1/style/sass/common.scss */
+.align-center {
+  text-align: center;
+}
+
+/* line 132, ../../0.0.1/style/sass/common.scss */
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 138, ../../0.0.1/style/sass/common.scss */
+.col-md-12 {
+  width: 100%;
+}
+
+/* line 142, ../../0.0.1/style/sass/common.scss */
+.col-md-6 {
+  width: 50%;
+}
+
+/* line 146, ../../0.0.1/style/sass/common.scss */
+.col-md-push-3 {
+  margin-left: 25%;
+}
+
+/* line 150, ../../0.0.1/style/sass/common.scss */
+h1 {
+  color: #121212;
+  font-size: 48px;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  text-shadow: 1px 1px 1px rgba(26, 26, 26, 0.6);
+}
+
+/* line 158, ../../0.0.1/style/sass/common.scss */
+p {
+  margin: 0 0 10px;
+}
+
+/* line 162, ../../0.0.1/style/sass/common.scss */
+.lead {
+  font-size: 21px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+/* line 168, ../../0.0.1/style/sass/common.scss */
+.copy {
+  color: #ff8a00;
+  font-size: 0.80em;
+}
+
+/* line 173, ../../0.0.1/style/sass/common.scss */
+.shadow {
+  text-shadow: 1px 1px 1px rgba(108, 96, 96, 0.6);
+}
